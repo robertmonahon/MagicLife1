@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C419489916A927980052B102 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C419489816A927980052B102 /* UIKit.framework */; };
+		C419489B16A927980052B102 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C419489A16A927980052B102 /* Foundation.framework */; };
+		C419489D16A927980052B102 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C419489C16A927980052B102 /* CoreGraphics.framework */; };
+		C41948A316A927980052B102 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C41948A116A927980052B102 /* InfoPlist.strings */; };
+		C41948A516A927980052B102 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C41948A416A927980052B102 /* main.m */; };
+		C41948A916A927980052B102 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C41948A816A927980052B102 /* AppDelegate.m */; };
+		C41948AC16A927980052B102 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C41948AA16A927980052B102 /* MainStoryboard.storyboard */; };
+		C41948AF16A927980052B102 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C41948AE16A927980052B102 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C419489416A927980052B102 /* MagicLife1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicLife1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C419489816A927980052B102 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C419489A16A927980052B102 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C419489C16A927980052B102 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C41948A016A927980052B102 /* MagicLife1-Info.plist */ = {isa = PBXFileReference; path = "MagicLife1-Info.plist"; sourceTree = "<group>"; };
+		C41948A216A927980052B102 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C41948A416A927980052B102 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C41948A616A927980052B102 /* MagicLife1-Prefix.pch */ = {isa = PBXFileReference; path = "MagicLife1-Prefix.pch"; sourceTree = "<group>"; };
+		C41948A716A927980052B102 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		C41948A816A927980052B102 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C41948AB16A927980052B102 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		C41948AD16A927980052B102 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		C41948AE16A927980052B102 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C419489116A927980052B102 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C419489916A927980052B102 /* UIKit.framework in Frameworks */,
+				C419489B16A927980052B102 /* Foundation.framework in Frameworks */,
+				C419489D16A927980052B102 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C419488916A927980052B102 = {
+			isa = PBXGroup;
+			children = (
+				C419489E16A927980052B102 /* MagicLife1 */,
+				C419489716A927980052B102 /* Frameworks */,
+				C419489516A927980052B102 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C419489516A927980052B102 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C419489416A927980052B102 /* MagicLife1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C419489716A927980052B102 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C419489816A927980052B102 /* UIKit.framework */,
+				C419489A16A927980052B102 /* Foundation.framework */,
+				C419489C16A927980052B102 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C419489E16A927980052B102 /* MagicLife1 */ = {
+			isa = PBXGroup;
+			children = (
+				C41948A716A927980052B102 /* AppDelegate.h */,
+				C41948A816A927980052B102 /* AppDelegate.m */,
+				C41948AA16A927980052B102 /* MainStoryboard.storyboard */,
+				C41948AD16A927980052B102 /* ViewController.h */,
+				C41948AE16A927980052B102 /* ViewController.m */,
+				C419489F16A927980052B102 /* Supporting Files */,
+			);
+			path = MagicLife1;
+			sourceTree = "<group>";
+		};
+		C419489F16A927980052B102 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C41948A016A927980052B102 /* MagicLife1-Info.plist */,
+				C41948A116A927980052B102 /* InfoPlist.strings */,
+				C41948A416A927980052B102 /* main.m */,
+				C41948A616A927980052B102 /* MagicLife1-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C419489316A927980052B102 /* MagicLife1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C41948B216A927980052B102 /* Build configuration list for PBXNativeTarget "MagicLife1" */;
+			buildPhases = (
+				C419489016A927980052B102 /* Sources */,
+				C419489116A927980052B102 /* Frameworks */,
+				C419489216A927980052B102 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MagicLife1;
+			productName = MagicLife1;
+			productReference = C419489416A927980052B102 /* MagicLife1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C419488B16A927980052B102 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = C419488E16A927980052B102 /* Build configuration list for PBXProject "MagicLife1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C419488916A927980052B102;
+			productRefGroup = C419489516A927980052B102 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C419489316A927980052B102 /* MagicLife1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C419489216A927980052B102 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C41948A316A927980052B102 /* InfoPlist.strings in Resources */,
+				C41948AC16A927980052B102 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C419489016A927980052B102 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C41948A516A927980052B102 /* main.m in Sources */,
+				C41948A916A927980052B102 /* AppDelegate.m in Sources */,
+				C41948AF16A927980052B102 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C41948A116A927980052B102 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C41948A216A927980052B102 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C41948AA16A927980052B102 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C41948AB16A927980052B102 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C41948B016A927980052B102 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C41948B116A927980052B102 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C41948B316A927980052B102 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MagicLife1/MagicLife1-Prefix.pch";
+				INFOPLIST_FILE = "MagicLife1/MagicLife1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C41948B416A927980052B102 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MagicLife1/MagicLife1-Prefix.pch";
+				INFOPLIST_FILE = "MagicLife1/MagicLife1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C419488E16A927980052B102 /* Build configuration list for PBXProject "MagicLife1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C41948B016A927980052B102 /* Debug */,
+				C41948B116A927980052B102 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C41948B216A927980052B102 /* Build configuration list for PBXNativeTarget "MagicLife1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C41948B316A927980052B102 /* Debug */,
+				C41948B416A927980052B102 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C419488B16A927980052B102 /* Project object */;
+}
