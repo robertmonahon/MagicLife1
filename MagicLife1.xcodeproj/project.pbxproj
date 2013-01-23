@@ -15,6 +15,7 @@
 		C41948A916A927980052B102 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C41948A816A927980052B102 /* AppDelegate.m */; };
 		C41948AC16A927980052B102 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C41948AA16A927980052B102 /* MainStoryboard.storyboard */; };
 		C41948AF16A927980052B102 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C41948AE16A927980052B102 /* ViewController.m */; };
+		C41948B716A92E200052B102 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = C41948B616A92E200052B102 /* Player.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +23,17 @@
 		C419489816A927980052B102 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C419489A16A927980052B102 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C419489C16A927980052B102 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		C41948A016A927980052B102 /* MagicLife1-Info.plist */ = {isa = PBXFileReference; path = "MagicLife1-Info.plist"; sourceTree = "<group>"; };
+		C41948A016A927980052B102 /* MagicLife1-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MagicLife1-Info.plist"; sourceTree = "<group>"; };
 		C41948A216A927980052B102 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C41948A416A927980052B102 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C41948A616A927980052B102 /* MagicLife1-Prefix.pch */ = {isa = PBXFileReference; path = "MagicLife1-Prefix.pch"; sourceTree = "<group>"; };
-		C41948A716A927980052B102 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		C41948A616A927980052B102 /* MagicLife1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MagicLife1-Prefix.pch"; sourceTree = "<group>"; };
+		C41948A716A927980052B102 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C41948A816A927980052B102 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C41948AB16A927980052B102 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		C41948AD16A927980052B102 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		C41948AD16A927980052B102 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		C41948AE16A927980052B102 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C41948B516A92E200052B102 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		C41948B616A92E200052B102 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 				C41948AA16A927980052B102 /* MainStoryboard.storyboard */,
 				C41948AD16A927980052B102 /* ViewController.h */,
 				C41948AE16A927980052B102 /* ViewController.m */,
+				C41948B516A92E200052B102 /* Player.h */,
+				C41948B616A92E200052B102 /* Player.m */,
 				C419489F16A927980052B102 /* Supporting Files */,
 			);
 			path = MagicLife1;
@@ -163,6 +168,7 @@
 				C41948A516A927980052B102 /* main.m in Sources */,
 				C41948A916A927980052B102 /* AppDelegate.m in Sources */,
 				C41948AF16A927980052B102 /* ViewController.m in Sources */,
+				C41948B716A92E200052B102 /* Player.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
